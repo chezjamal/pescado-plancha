@@ -1,0 +1,491 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 66vw;
+}
+li{
+font-size: 21px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+list-style: none;
+color: gray;
+cursor: pointer;
+}
+li:hover{
+    color: gold;
+    font-size: 40px;
+    transition: all 0.5s;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color: gold;
+
+}
+button{
+    padding: 14px 50px;
+    border: none;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: rgb(255, 0, 0);
+}
+button:hover{
+    background-color: rgb(255, 242, 0);
+}
+
+.content{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.content__left>h2{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 3px;
+    color: red;
+}
+h2:hover{
+    font-size: 73px;
+    transition: all 0.5s;
+    color: rgb(241, 173, 3);
+}
+
+.content__left>p{
+  
+  font-size: 28px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: bold;
+ color: gray;
+ margin-bottom: 8px;
+}
+p:hover{
+    color: gold;
+    font-size: 44px;
+    transition: all 0.5s;
+}
+.about{
+width: 100%;
+padding: 100px 0px;
+}
+.about img{
+   height: auto;
+   width: 630px;
+}
+
+.about-text{
+    width: 550px;
+}
+.main{
+   width: 1130px;
+   max-width: 95%;
+   margin:  0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+
+}
+.about-text h2{
+    color: red;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+.about-text h2:hover{
+    font-size: 80px;
+    color: goldenrod;
+}
+
+.about-text p{
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 40px;
+}
+.about-text p:hover{
+    font-size: 44px;
+    color: gold;
+}
+
+.abo{
+    width: 100%;
+    padding: 100px 0px;
+    }
+    .abo img{
+       height: auto;
+       width: 630px;
+    }
+    
+    .abo-text{
+        width: 550px;
+    }
+    .mas{
+       width: 1130px;
+       max-width: 95%;
+       margin:  0 auto;
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+    
+    }
+    .abo-text h2{
+        color: red;
+        font-size: 60px;
+        text-transform: capitalize;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-bottom: 10px;
+    }
+    .abo-text h2:hover{
+        font-size: 80px;
+        color: goldenrod;
+    }
+    
+    .abo-text p{
+        font-size: 28px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: gray;
+        margin-bottom: 20px;
+    }
+    .abo-text p:hover{
+        font-size: 44px;
+        color: gold;
+    }
+    
+    .bot{
+        width: 100%;
+        padding: 100px 0px;
+        }
+        .bot img{
+           height: auto;
+           width: 630px;
+        }
+        
+        .bot-text{
+            width: 550px;
+        }
+        .star{
+           width: 1530px;
+           max-width: 95%;
+           margin:  0 auto;
+           display: flex;
+           align-items: center;
+           justify-content: space-around;
+        
+        }
+        .bot-text h2{
+            color: red;
+            font-size: 60px;
+            text-transform: capitalize;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-bottom: 10px;
+        }
+        .bot-text h2:hover{
+            font-size: 80px;
+            color: goldenrod;
+        }
+        
+        .bot-text p{
+            font-size: 28px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: gray;
+            margin-bottom: 14px;
+        }
+        .bot-text p:hover{
+            font-size: 44px;
+            color: gold;
+        }
+        .abo{
+            width: 100%;
+            padding: 100px 0px;
+            }
+            .abo img{
+               height: auto;
+               width: 630px;
+            }
+            
+            .abo-text{
+                width: 550px;
+            }
+            .mas{
+               width: 1130px;
+               max-width: 95%;
+               margin:  0 auto;
+               display: flex;
+               align-items: center;
+               justify-content: space-around;
+            
+            }
+            .abo-text h2{
+                color: red;
+                font-size: 60px;
+                text-transform: capitalize;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-bottom: 10px;
+            }
+            .abo-text h2:hover{
+                font-size: 80px;
+                color: goldenrod;
+            }
+            
+            .abo-text p{
+                font-size: 28px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                color: gray;
+                margin-bottom: 20px;
+            }
+            .abo-text p:hover{
+                font-size: 44px;
+                color: gold;
+            }
+            .span{
+                width: 100%;
+                padding: 100px 0px;
+                }
+                .span img{
+                   height: auto;
+                   width: 630px;
+                }
+                
+                .span-text{
+                    width: 550px;
+                }
+                .raro{
+                   width: 1130px;
+                   max-width: 95%;
+                   margin:  0 auto;
+                   display: flex;
+                   align-items: center;
+                   justify-content: space-around;
+                
+                }
+                .span-text h2{
+                    color: red;
+                    font-size: 60px;
+                    text-transform: capitalize;
+                   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    margin-bottom: 20px;
+                }
+                .span-text h2:hover{
+                    font-size: 90px;
+                   color: gold;
+                }
+                
+                .span-text p{
+                    font-size: 28px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight: bold;
+                    color: gray;
+                    margin-bottom: 20px;
+                }
+                .span-text p:hover{
+                    font-size: 60px;
+                    color: gold;
+                }
+                .saka{
+                    width: 100%;
+                    padding: 100px 0px;
+                    }
+                    .saka img{
+                       height: auto;
+                       width: 530px;
+                    }
+                    
+                    .saka-text{
+                        width: 550px;
+                    }
+                    .kalo{
+                       width: 1130px;
+                       max-width: 95%;
+                       margin:  0 auto;
+                       display: flex;
+                       align-items: center;
+                       justify-content: space-around;
+                    
+                    }
+                    .saka-text h2{
+                        color: red;
+                        font-size: 60px;
+                        text-transform: capitalize;
+                       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                        margin-bottom: 20px;
+                    }
+                    .saka-text h2:hover{
+                        font-size: 90px;
+                       color: gold;
+                    }
+                    
+                    .saka-text p{
+                        font-size: 28px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-weight: bold;
+                        color: gray;
+                        margin-bottom: 20px;
+                    }
+                    .saka-text p:hover{
+                        font-size: 60px;
+                        color: gold;
+                    }
+                    .cta{
+                        background-color: #e2980ddc;
+                        padding: 30px 0px;
+                        text-align: center;
+                        width: 80%;
+                        margin: 100px   auto;
+                        border-radius: 10px;
+                    }
+                    .cta h2{
+                        font-size: 30px;
+                        color: var(--bg-color);
+                        margin-bottom: 30px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    .taca{
+                        background-color: #e2980ddc;
+                        padding: 30px 0px;
+                        text-align: center;
+                        width: 80%;
+                        margin: 100px   auto;
+                        border-radius: 10px;
+                    }
+                    .taca h2{
+                        font-size: 30px;
+                        color: var(--bg-color);
+                        margin-bottom: 30px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    .conttact-me{
+                        color: rgb(0, 0, 0);
+                        width: 100%;
+                        height: 290px;
+                        background-color: rgb(241, 185, 73);
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: center;
+                        font-size: 30px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-weight: bold;
+                    }
+                    a{
+                        color: rgb(255, 255, 255);
+                    }
+                    
+                    .opo{
+                        width: 100%;
+                        padding: 100px 0px;
+                        }
+                        .opo img{
+                           height: auto;
+                           width: 530px;
+                        }
+                        
+                        .opo-text{
+                            width: 550px;
+                        }
+                        .aki{
+                           width: 1130px;
+                           max-width: 95%;
+                           margin:  0 auto;
+                           display: flex;
+                           align-items: center;
+                           justify-content: space-around;
+                        
+                        }
+                        .opo-text h2{
+                            color: red;
+                            font-size: 60px;
+                            text-transform: capitalize;
+                            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                            margin-bottom: 10px;
+                        }
+                        .opo-text h2:hover{
+                            font-size: 80px;
+                            color: goldenrod;
+                        }
+                        
+                        .opo-text p{
+                            font-size: 28px;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            font-weight: bold;
+                            color: gray;
+                            margin-bottom: 60px;
+                        }
+                        .opo-text p:hover{
+                            font-size: 44px;
+                            color: gold;
+                        }
+
+                        @media only screen and (max-width:930px){
+                            .content{
+                                flex-wrap: wrap;
+                                flex-direction: column-reverse;
+                              }
+                              .raro{
+                                flex-wrap: wrap;
+                                flex-direction: column-reverse;
+                              }
+                            .main{
+                                flex-wrap: wrap;
+                                flex-direction: column-reverse;
+                            }
+                            .mas{
+                                flex-wrap: wrap;
+                                flex-direction: column-reverse;
+                            }
+                            .star{
+                                flex-wrap: wrap;
+                                flex-direction: column-reverse;
+                            }
+                            .aki{
+                                flex-wrap: wrap;
+                                flex-direction: column-reverse
+                            }
+                           
+                              
+                            }
+                        
+                        @media only screen and (max-width:800px){
+                            ul>li{
+                                 font-size: 13px;
+                            }
+                           h1 { 
+                            font-size: 18px;
+                            }
+                            button{
+                                padding: 10px 20px;
+                            }
+                            ul{
+                                font-size: 6px;
+                            }
+                             .img{
+                                height: 3px;
+                            }
+
+
+
+
+
+
+
+
+
+                        }
+
+                    
+                        
